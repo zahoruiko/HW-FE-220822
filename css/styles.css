@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+      
+#main_menu {
+    background-color: navy;
+    padding: 10px;
+    color: white;
+}
+
+.main_menu_link {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#site_header {
+    background-color: rgb(225, 240, 245);
+    padding: 20px;
+    vertical-align: middle;
+    background-image: url("../images/Apps2.webp");
+    background-size: cover;
+    z-index: 5;
+}
+
+#site_logo {
+    display: inline;
+    border: 2px solid navy; 
+}
+
+#site_name {
+    display: inline;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-shadow: 3px 3px 3px black;
+    z-index: 0;   
+}
+
+h1, h2 {
+    color: navy;
+    border-bottom: 1px solid;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+li::marker {
+    content: "✔ ";
+    color: navy;
+}
+
+input, textarea {
+    width: 600px;
+    border: 1px solid navy;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px;
+    background-color: rgb(232, 245, 250);
+}
+
+button {
+    border: 1px solid navy;
+    color: white;
+    border-radius: 10px;
+    background-color: navy;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+}
+
+.feedback {
+    font-size: 1.25rem;
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid navy;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+.comsumer_feedback {
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.consumer_name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: navy;
+    font-family: 'Roboto', sans-serif;
+}
+
+.consumer_site a {
+    text-decoration: none;
+}
+
+#footer {
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-top: 1px solid navy;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
