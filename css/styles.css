@@ -17,7 +17,6 @@
     vertical-align: middle;
     background-image: url("../images/Apps2.webp");
     background-size: cover;
-    z-index: 5;
 }
 
 #site_logo {
@@ -32,7 +31,6 @@
     font-family: 'Roboto', sans-serif;
     color:white;
     text-shadow: 3px 3px 3px black;
-    z-index: 0;   
 }
 
 h1, h2 {
